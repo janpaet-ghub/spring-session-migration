@@ -132,11 +132,12 @@ public class ScmWebApplicationInitializer implements WebApplicationInitializer {
 	
 	//SCM-2017
 	private void setSpringSessionRepositoryFilter(final ServletContext servletContext) {
-		final DelegatingFilterProxy filterProxy = new DelegatingFilterProxy("springSessionRepositoryFilter");
-		filterProxy.setTargetFilterLifecycle(true);
+	    DelegatingFilterProxy filterProxy = new DelegatingFilterProxy();
+	    filterProxy.setTargetBeanName("springSessionRepositoryFilter");
+	    filterProxy.setTargetFilterLifecycle(true);
 
-	    	final FilterRegistration.Dynamic filter = servletContext.addFilter("springSessionRepositoryFilter", filterProxy);
-	    	filter.setAsyncSupported(true);
-	    	filter.addMappingForUrlPatterns(null, true, "/*");	   
+	    final FilterRegistration.Dynamic filter = servletContext.addFilter("springSessionRepositoryFilter", filterProxy);
+	    filter.setAsyncSupported(true);
+	    filter.addMappingForUrlPatterns(null, true, "/*");
 	}
 }
