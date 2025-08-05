@@ -71,7 +71,7 @@ public class ScmWebApplicationInitializer implements WebApplicationInitializer {
         setRequestContextFilter(servletContext);
         setSecurityContextPersistenceFilter(servletContext);
         setSpringSessionRepositoryFilter(servletContext);		//SCM-2017
-        setSecurityContextPersistenceFilter(servletContext);	//SCM-2017
+        setSecurityContextPersistenceFilter(servletContext);		//SCM-2017
 
 		DispatcherServlet servlet = dispatcherServlet(applicationContext);
 		final ServletRegistration.Dynamic dispatcherServlet = servletContext.addServlet(SCM_DISPATCHER_SERVLET_NAME, servlet);
