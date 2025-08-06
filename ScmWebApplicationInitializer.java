@@ -55,6 +55,7 @@ public class ScmWebApplicationInitializer implements WebApplicationInitializer {
 		LOG.info("Tomcat onStartup start");
         final AnnotationConfigWebApplicationContext applicationContext = new AnnotationConfigWebApplicationContext();
         applicationContext.register(Config.class); 				//SCM-2017
+        applicationContext.refresh(); 							//SCM-2017: Explizit Context initialisieren
 		applicationContext.setServletContext(servletContext);
         
         servletContext.addListener(new ContextLoaderListener(applicationContext));
