@@ -1,72 +1,72 @@
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Server Version:        Apache Tomcat/10.1.43
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Server built:          Jul 1 2025 21:30:20 UTC
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Server version number: 10.1.43.0
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: OS Name:               Windows 11
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: OS Version:            10.0
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Architektur:           amd64
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Java Home:             C:\Program Files\Java\jdk-17
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: JVM Version:           17.0.12+8-LTS-286
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: JVM Hersteller:        Oracle Corporation
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
-INFORMATION: CATALINA_BASE:         D:\Devel\workspaces\entw_2025_spring6\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: CATALINA_BASE:         D:\Devel\apache-tomcat-10.1.43
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: CATALINA_HOME:         D:\Devel\apache-tomcat-10.1.43
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: -XX:+ShowCodeDetailsInExceptionMessages
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
-INFORMATION: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:57225
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:59665
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: -javaagent:D:\Tools\eclipse\jee-2023-092\eclipse\configuration\org.eclipse.osgi\444\0\.cp\lib\javaagent-shaded.jar
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
-INFORMATION: Command line argument: -Dcatalina.base=D:\Devel\workspaces\entw_2025_spring6\.metadata\.plugins\org.eclipse.wst.server.core\tmp0
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dcatalina.base=D:\Devel\apache-tomcat-10.1.43
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: -Dcatalina.home=D:\Devel\apache-tomcat-10.1.43
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
-INFORMATION: Command line argument: -Dwtp.deploy=D:\Devel\workspaces\entw_2025_spring6\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
+INFORMATION: Command line argument: -Dwtp.deploy=D:\Devel\apache-tomcat-10.1.43\wtpwebapps
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: -Dfile.encoding=UTF-8
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: -Dstdout.encoding=UTF-8
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.VersionLoggerListener log
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.startup.VersionLoggerListener log
 INFORMATION: Command line argument: -Dstderr.encoding=UTF-8
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
-INFORMATION: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Tools\TortoiseSVN\bin;C:\Program Files (x86)\OpenVPN\bin;d:\Devel\apache-maven-3.6.3\bin;D:\Tools\Silk_Subversion\bin;D:\Tools\dependency-check\bin;C:\Program Files\dotnet\;D:\Devel\PuTTY_077\;D:\Tools\NVM\nvm;D:\Tools\NVM\nodejs;D:\Tools\Git\Git\cmd;D:\Tools\PostgreSQL\10\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;D:\Tools\OpenSSL-Win64\bin;D:\Windows Kits\10\Windows Performance Toolkit\;D:\Tools\TortoiseGIT\bin;D:\Tools\Python\Scripts\;D:\Tools\Python\;D:\Tools\Ruby\Ruby32-x64\bin;C:\Users\janpa\AppData\Local\Microsoft\WindowsApps;D:\Tools\NVM\nvm;D:\Tools\NVM\nodejs;D:\Tools\Ruby\Ruby32-x64\bin;D:\Tools\Ruby\Ruby32-x64\msys64\bin;;D:\Tools\IntelliJ IDEA 2023.2.2\bin;;D:\Tools\eclipse\jee-2023-092\eclipse;;.]
-Aug. 05, 2025 11:19:51 PM org.apache.coyote.AbstractProtocol init
+Aug. 06, 2025 9:33:19 AM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFORMATION: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-17/bin/server;C:/Program Files/Java/jdk-17/bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\Tools\TortoiseSVN\bin;C:\Program Files (x86)\OpenVPN\bin;d:\Devel\apache-maven-3.6.3\bin;D:\Tools\Silk_Subversion\bin;D:\Tools\dependency-check\bin;C:\Program Files\dotnet\;D:\Devel\PuTTY_077\;D:\Tools\NVM\nvm;D:\Tools\NVM\nodejs;D:\Tools\Git\Git\cmd;D:\Tools\PostgreSQL\10\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\DTS\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;D:\Tools\OpenSSL-Win64\bin;D:\Windows Kits\10\Windows Performance Toolkit\;D:\Tools\TortoiseGIT\bin;D:\Tools\Python\Scripts\;D:\Tools\Python\;D:\Tools\Ruby\Ruby32-x64\bin;C:\Users\janpa\AppData\Local\Microsoft\WindowsApps;D:\Tools\NVM\nvm;D:\Tools\NVM\nodejs;D:\Tools\Ruby\Ruby32-x64\bin;D:\Tools\Ruby\Ruby32-x64\msys64\bin;;D:\Tools\IntelliJ IDEA 2023.2.2\bin;;d:\Tools\eclipse\jee-2023-092\eclipse;;.]
+Aug. 06, 2025 9:33:20 AM org.apache.coyote.AbstractProtocol init
 INFORMATION: Initialisiere ProtocolHandler["http-nio-8080"]
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.startup.Catalina load
-INFORMATION: Server initialization in [606] milliseconds
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.core.StandardService startInternal
+Aug. 06, 2025 9:33:20 AM org.apache.catalina.startup.Catalina load
+INFORMATION: Server initialization in [560] milliseconds
+Aug. 06, 2025 9:33:20 AM org.apache.catalina.core.StandardService startInternal
 INFORMATION: Starting service [Catalina]
-Aug. 05, 2025 11:19:51 PM org.apache.catalina.core.StandardEngine startInternal
+Aug. 06, 2025 9:33:20 AM org.apache.catalina.core.StandardEngine startInternal
 INFORMATION: Starting Servlet engine: [Apache Tomcat/10.1.43]
-Aug. 05, 2025 11:20:09 PM org.apache.jasper.servlet.TldScanner scanJars
+Aug. 06, 2025 9:33:33 AM org.apache.jasper.servlet.TldScanner scanJars
 INFORMATION: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
-Aug. 05, 2025 11:20:09 PM org.apache.catalina.core.ApplicationContext log
-INFORMATION: 2 Spring WebApplicationInitializers detected on classpath
-Aug. 05, 2025 11:20:09 PM de.fms.scm.utils.LogUtil info
+Aug. 06, 2025 9:33:33 AM org.apache.catalina.core.ApplicationContext log
+INFORMATION: 3 Spring WebApplicationInitializers detected on classpath
+Aug. 06, 2025 9:33:33 AM de.fms.scm.utils.LogUtil info
 INFORMATION: Tomcat onStartup start
-Aug. 05, 2025 11:20:09 PM de.fms.scm.utils.LogUtil info
-INFORMATION: flag value of secure-cookie configuration: false
-Aug. 05, 2025 11:20:09 PM org.apache.catalina.core.ContainerBase startInternal
+Aug. 06, 2025 9:33:33 AM de.fms.scm.utils.LogUtil info
+INFORMATION: flag value of secure-cookie configuration: ${complexApp.Web.secureCookie}
+Aug. 06, 2025 9:33:33 AM org.apache.catalina.core.ContainerBase startInternal
 SCHWERWIEGEND: A child container failed during start
 java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/scm]]
 	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
@@ -111,7 +111,7 @@ Caused by: java.lang.NullPointerException: Cannot invoke "jakarta.servlet.Filter
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
 	... 27 more
 
-Aug. 05, 2025 11:20:09 PM org.apache.catalina.core.ContainerBase startInternal
+Aug. 06, 2025 9:33:33 AM org.apache.catalina.core.ContainerBase startInternal
 SCHWERWIEGEND: A child container failed during start
 java.util.concurrent.ExecutionException: org.apache.catalina.LifecycleException: A child container failed during start
 	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
@@ -164,7 +164,7 @@ Caused by: java.lang.NullPointerException: Cannot invoke "jakarta.servlet.Filter
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
 	... 27 more
 
-Aug. 05, 2025 11:20:09 PM org.apache.catalina.startup.Catalina start
+Aug. 06, 2025 9:33:33 AM org.apache.catalina.startup.Catalina start
 SCHWERWIEGEND: Tomcat kann nicht starten, da eine benötigte Server Komponente Startprobleme hat
 org.apache.catalina.LifecycleException: A child container failed during start
 	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:768)
@@ -220,19 +220,19 @@ Caused by: java.lang.NullPointerException: Cannot invoke "jakarta.servlet.Filter
 	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
 	... 27 more
 
-Aug. 05, 2025 11:20:09 PM org.apache.coyote.AbstractProtocol pause
+Aug. 06, 2025 9:33:33 AM org.apache.coyote.AbstractProtocol pause
 INFORMATION: Pausing ProtocolHandler ["http-nio-8080"]
-Aug. 05, 2025 11:20:09 PM org.apache.catalina.core.StandardService stopInternal
+Aug. 06, 2025 9:33:33 AM org.apache.catalina.core.StandardService stopInternal
 INFORMATION: Stopping service [Catalina]
-Aug. 05, 2025 11:20:09 PM org.apache.coyote.AbstractProtocol destroy
+Aug. 06, 2025 9:33:33 AM org.apache.coyote.AbstractProtocol destroy
 INFORMATION: Destroying ProtocolHandler ["http-nio-8080"]
-Aug. 05, 2025 11:20:09 PM de.fms.infrastructure.vfs.VFSTools init
+Aug. 06, 2025 9:33:33 AM de.fms.infrastructure.vfs.VFSTools init
 INFORMATION: VFSTools init()
-Aug. 05, 2025 11:20:09 PM de.fms.infrastructure.jsch.SeastepIdentityRepositoryFactory getIdentityInfo
+Aug. 06, 2025 9:33:34 AM de.fms.infrastructure.jsch.SeastepIdentityRepositoryFactory getIdentityInfo
 INFORMATION: getIdentityInfo()
-Aug. 05, 2025 11:20:09 PM de.fms.infrastructure.vfs.VFSTools$1 run
+Aug. 06, 2025 9:33:34 AM de.fms.infrastructure.vfs.VFSTools$1 run
 SCHWERWIEGEND: VFS Provider for smb missing
-Aug. 05, 2025 11:20:10 PM org.apache.catalina.core.StandardContext listenerStop
+Aug. 06, 2025 9:33:34 AM org.apache.catalina.core.StandardContext listenerStop
 SCHWERWIEGEND: Exception sending context destroyed event to listener instance of class [de.fms.scm.listener.ScmServletContextListener]
 java.lang.IllegalStateException: No WebApplicationContext found: no ContextLoaderListener registered?
 	at org.springframework.web.context.support.WebApplicationContextUtils.getRequiredWebApplicationContext(WebApplicationContextUtils.java:85)
@@ -259,5 +259,5 @@ java.lang.IllegalStateException: No WebApplicationContext found: no ContextLoade
 	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:345)
 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:476)
 
-Aug. 05, 2025 11:20:10 PM org.apache.catalina.core.ApplicationContext log
+Aug. 06, 2025 9:33:34 AM org.apache.catalina.core.ApplicationContext log
 INFORMATION: Closing Spring root WebApplicationContext
