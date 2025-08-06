@@ -72,7 +72,7 @@ public class ScmWebApplicationInitializer implements WebApplicationInitializer {
         setHibernateFilter(servletContext);
         setRequestContextFilter(servletContext);
         setSecurityContextPersistenceFilter(servletContext);
-        setSpringSessionRepositoryFilter(servletContext);		//SCM-2017
+        //setSpringSessionRepositoryFilter(servletContext);		//SCM-2017
 
 		DispatcherServlet servlet = dispatcherServlet(applicationContext);
 		final ServletRegistration.Dynamic dispatcherServlet = servletContext.addServlet(SCM_DISPATCHER_SERVLET_NAME, servlet);
@@ -132,6 +132,7 @@ public class ScmWebApplicationInitializer implements WebApplicationInitializer {
 	}
 	
 	//SCM-2017
+	/*
 	private void setSpringSessionRepositoryFilter(final ServletContext servletContext) {
 	    DelegatingFilterProxy filterProxy = new DelegatingFilterProxy();
 	    filterProxy.setTargetBeanName("springSessionRepositoryFilter");
@@ -141,4 +142,5 @@ public class ScmWebApplicationInitializer implements WebApplicationInitializer {
 	    filter.setAsyncSupported(true);
 	    filter.addMappingForUrlPatterns(null, true, "/*");
 	}
+	*/
 }
