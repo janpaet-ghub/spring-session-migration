@@ -1,7 +1,26 @@
-06.08.2025 20:28:50 |WARN | PostProcessorRegistrationDelegate.java:429 | Bean 'scmCoreApplicationIntTestConfig' of type [de.fms.scm.config.ScmCoreApplicationIntTestConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [exceptionTranslation] is declared through a non-static factory method on that class; consider declaring it as static instead.
-06.08.2025 20:28:50 |WARN | AbstractApplicationContext.java:635 | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactory' defined in de.fms.scm.config.ScmCoreJPAIntTestConfig: Unsatisfied dependency expressed through method 'entityManagerFactory' parameter 1: No qualifying bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-06.08.2025 20:28:50 |WARN | TestContextManager.java:272 | Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [de.fms.scm.persistence.scmwhtd.RemoveStockitemHistoryTest@34b9fc7d]
-java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@72805168 testClass = de.fms.scm.persistence.scmwhtd.RemoveStockitemHistoryTest, locations = [], classes = [de.fms.scm.config.ScmCoreJPAIntTestConfig, de.fms.scm.config.ScmCoreApplicationIntTestConfig, de.fms.scm.config.ScmCoreActivitiConfig, de.fms.scm.config.ScmCoreUtilsConfig, de.fms.scm.config.ScmCachingConfig, de.fms.scm.config.ScmCoreMailConfig, de.fms.scm.config.ScmCoreJcrConfig, de.fms.scm.config.ScmMfaConfig, de.fms.scm.config.KpiServiceConfig, de.fms.scm.config.ZendeskServiceTestConfig], contextInitializerClasses = [], activeProfiles = ["testCore"], propertySourceDescriptors = [], propertySourceProperties = [], contextCustomizers = [org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0], contextLoader = org.springframework.test.context.support.DelegatingSmartContextLoader, parent = null]
+07.08.2025 11:19:22 |INFO | Slf4jMLog.java:212 | MLog clients using slf4j logging.
+07.08.2025 11:19:22 |INFO | Slf4jMLog.java:212 | Initializing c3p0-0.9.5.5 [built 11-December-2019 22:18:33 -0800; debug? true; trace: 10]
+07.08.2025 11:19:22 |INFO | LogHelper.java:31 | HHH000204: Processing PersistenceUnitInfo [name: default]
+07.08.2025 11:19:23 |INFO | Version.java:44 | HHH000412: Hibernate ORM core version 6.6.23.Final
+07.08.2025 11:19:23 |INFO | RegionFactoryInitiator.java:50 | HHH000026: Second-level cache disabled
+07.08.2025 11:19:23 |INFO | SpringPersistenceUnitInfo.java:87 | No LoadTimeWeaver setup: ignoring JPA class transformer
+07.08.2025 11:19:23 |INFO | Slf4jMLog.java:212 | Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 10, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> null, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, contextClassLoaderSource -> caller, dataSourceName -> 1hgf02obc10ksj0d1m394l5|2c282004, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> org.postgresql.Driver, extensions -> {}, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, forceSynchronousCheckins -> false, forceUseNamedDriverClass -> false, identityToken -> 1hgf02obc10ksj0d1m394l5|2c282004, idleConnectionTestPeriod -> 3000, initialPoolSize -> 3, jdbcUrl -> jdbc:postgresql://localhost:5433/scm-local-itest, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 0, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 50, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 5, numHelperThreads -> 3, preferredTestQuery -> null, privilegeSpawnedThreads -> false, properties -> {password=******, user=******}, propertyCycle -> 0, statementCacheNumDeferredCloseThreads -> 0, testConnectionOnCheckin -> false, testConnectionOnCheckout -> false, unreturnedConnectionTimeout -> 0, userOverrides -> {}, usesTraditionalReflectiveProxies -> false ]
+07.08.2025 11:19:23 |WARN | Slf4jMLog.java:220 | Bad pool size config, start 3 < min 5. Using 5 as start.
+07.08.2025 11:19:24 |INFO | JdbcEnvironmentInitiator.java:163 | HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'com.mchange.v2.c3p0.ComboPooledDataSource[ identityToken -> 1hgf02obc10ksj0d1m394l5|2c282004, dataSourceName -> 1hgf02obc10ksj0d1m394l5|2c282004 ]']
+	Database driver: undefined/unknown
+	Database version: 16.9
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+07.08.2025 11:19:25 |INFO | Version.java:21 | HV000001: Hibernate Validator 8.0.2.Final
+07.08.2025 11:19:28 |INFO | EmbeddableInstantiatorPojoStandard.java:42 | HHH000182: No default (no-argument) constructor for class: de.fms.scm.entities.scmtd.pk.TransportOrderAddressPreparedPK (class must be instantiated by Interceptor)
+07.08.2025 11:19:31 |INFO | JtaPlatformInitiator.java:59 | HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+07.08.2025 11:19:33 |INFO | AbstractEntityManagerFactoryBean.java:447 | Initialized JPA EntityManagerFactory for persistence unit 'default'
+07.08.2025 11:19:33 |WARN | AbstractApplicationContext.java:635 | Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in de.fms.scm.config.ScmCoreJPAConfig: EntityManagerFactory interface [interface org.hibernate.SessionFactory] seems to conflict with Spring's EntityManagerFactoryInfo mixin - consider resetting the 'entityManagerFactoryInterface' property to plain [jakarta.persistence.EntityManagerFactory]
+07.08.2025 11:19:33 |WARN | TestContextManager.java:272 | Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener] to prepare test instance [de.fms.scm.persistence.scmwhtd.RemoveStockitemHistoryTest@515d1a4e]
+java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedContextConfiguration@3c36afc3 testClass = de.fms.scm.persistence.scmwhtd.RemoveStockitemHistoryTest, locations = [], classes = [de.fms.scm.config.ScmCoreJPAConfig], contextInitializerClasses = [], activeProfiles = ["testCore"], propertySourceDescriptors = [], propertySourceProperties = [], contextCustomizers = [org.springframework.test.context.support.DynamicPropertiesContextCustomizer@0], contextLoader = org.springframework.test.context.support.DelegatingSmartContextLoader, parent = null]
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:180)
 	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:130)
 	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:142)
@@ -29,12 +48,9 @@ java.lang.IllegalStateException: Failed to load ApplicationContext for [MergedCo
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)
 	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
-Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'entityManagerFactory' defined in de.fms.scm.config.ScmCoreJPAIntTestConfig: Unsatisfied dependency expressed through method 'entityManagerFactory' parameter 1: No qualifying bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
-	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:546)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1357)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:563)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in de.fms.scm.config.ScmCoreJPAConfig: EntityManagerFactory interface [interface org.hibernate.SessionFactory] seems to conflict with Spring's EntityManagerFactoryInfo mixin - consider resetting the 'entityManagerFactoryInterface' property to plain [jakarta.persistence.EntityManagerFactory]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
@@ -48,10 +64,23 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:225)
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:152)
 	... 26 common frames omitted
-Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.boot.orm.jpa.EntityManagerFactoryBuilder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:2144)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1594)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1519)
-	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913)
-	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
-	... 42 common frames omitted
+Caused by: java.lang.IllegalStateException: EntityManagerFactory interface [interface org.hibernate.SessionFactory] seems to conflict with Spring's EntityManagerFactoryInfo mixin - consider resetting the 'entityManagerFactoryInterface' property to plain [jakarta.persistence.EntityManagerFactory]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createEntityManagerFactoryProxy(AbstractEntityManagerFactoryBean.java:479)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:407)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	... 39 common frames omitted
+Caused by: java.lang.IllegalArgumentException: methods with same signature getSchemaManager() but incompatible return types: [interface org.hibernate.relational.SchemaManager, interface jakarta.persistence.SchemaManager]
+	at java.base/java.lang.reflect.ProxyGenerator.checkReturnTypes(ProxyGenerator.java:311)
+	at java.base/java.lang.reflect.ProxyGenerator.generateClassFile(ProxyGenerator.java:488)
+	at java.base/java.lang.reflect.ProxyGenerator.generateProxyClass(ProxyGenerator.java:178)
+	at java.base/java.lang.reflect.Proxy$ProxyBuilder.defineProxyClass(Proxy.java:558)
+	at java.base/java.lang.reflect.Proxy$ProxyBuilder.build(Proxy.java:670)
+	at java.base/java.lang.reflect.Proxy.lambda$getProxyConstructor$1(Proxy.java:440)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue$Memoizer.get(AbstractClassLoaderValue.java:329)
+	at java.base/jdk.internal.loader.AbstractClassLoaderValue.computeIfAbsent(AbstractClassLoaderValue.java:205)
+	at java.base/java.lang.reflect.Proxy.getProxyConstructor(Proxy.java:438)
+	at java.base/java.lang.reflect.Proxy.newProxyInstance(Proxy.java:1037)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.createEntityManagerFactoryProxy(AbstractEntityManagerFactoryBean.java:474)
+	... 43 common frames omitted
